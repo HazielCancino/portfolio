@@ -12,7 +12,7 @@ export function Presentation() {
     location: 'Veracruz, Mexico',
     // Add a newline character after the emoji
     description:
-      "Hey 👋\nI'm Haziel also known as Haz. I'm a developer specializing in AI at 42 Paris. I'm passionate about AI, tech, Entrepreneurship and SaaS tech.",
+      "Hey 👋\nI'm Haziel also known as Haz. I'm a developer specializing in AI at Universidad de Oriente. I'm passionate about AI, tech, Entrepreneurship and SaaS tech.",
     src: '/profil-raph.png',
     fallbackSrc:
       'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',
@@ -103,7 +103,7 @@ export function Presentation() {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="mt-4 flex flex-wrap gap-2"
           >
-            {['AI', 'Developer', '42 Paris', 'Sport', 'SaaS Builder'].map(
+            {['AI', 'Developer', 'Universidad de Oriente', 'Sport', 'SaaS Builder'].map(
               (tag) => (
                 <span
                   key={tag}
