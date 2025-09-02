@@ -90,7 +90,7 @@ const PROJECT_CONTENT = [
       },
       {
         name: 'github',
-        url: 'https://github.com/toukoum/Rrate',
+        url: 'https://github.com/HazielCancino/Rrate-main',
       },
     ],
     images: [
@@ -111,7 +111,7 @@ const PROJECT_CONTENT = [
   {
     title: 'Defai',
     description:
-      "We Win ETHOXford hackathon by building DEFAI. DEFAI stands for Decentralized Finance Artificial Intelligence. It's an AI-powered chat interface that simplifies on-chain operations on the Avalanche blockchain by allowing users to interact using natural language. This makes complex DeFi operations accessible even for those with limited technical expertise.",
+      "DEFAI stands for Decentralized Finance Artificial Intelligence. It's an AI-powered chat interface that simplifies on-chain operations on the Avalanche blockchain by allowing users to interact using natural language. This makes complex DeFi operations accessible even for those with limited technical expertise.",
     techStack: [
       'Next.js',
       'TailwindCSS',
@@ -127,7 +127,7 @@ const PROJECT_CONTENT = [
       },
       {
         name: 'github',
-        url: 'https://github.com/toukoum/DEFAI',
+        url: 'https://github.com/HazielCancino/DEFAI-main',
       },
       {
         name: 'LinkedIn',
@@ -135,7 +135,7 @@ const PROJECT_CONTENT = [
       },
       {
         name: 'Youtube Video',
-        url: 'https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=Toukoum',
+        url: 'https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=HazielCancino',
       }
     ],
     images: [
@@ -195,7 +195,7 @@ const PROJECT_CONTENT = [
     links: [
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/datai',
+        url: 'https://github.com/HazielCancino/datai-main',
       },
       {
         name: 'Youtube Video Demo',
@@ -230,7 +230,7 @@ const PROJECT_CONTENT = [
     links: [
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/Transcendance',
+        url: 'https://github.com/HazielCancino/Transcendance-main',
       },
     ],
     images: [
@@ -270,7 +270,7 @@ const PROJECT_CONTENT = [
     links: [
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/Michelle-42',
+        url: 'https://github.com/HazielCancino/Michelle-42-main',
       },
     ],
     images: [
@@ -293,7 +293,7 @@ const PROJECT_CONTENT = [
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/YouBot',
+        url: 'https://github.com/HazielCancino/YouBot-main',
       }
     ],
     images: [
@@ -316,11 +316,11 @@ const PROJECT_CONTENT = [
     links: [
       {
         name: 'Website',
-        url: 'https://toukoum.github.io/oldPortfolio/',
+        url: 'https://HazielCancino.github.io/oldPortfolio/',
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/toukoum/portfolio',
+        url: 'https://github.com/HazielCancino/portfolio',
       },
     ],
     images: [
