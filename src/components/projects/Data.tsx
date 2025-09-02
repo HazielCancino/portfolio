@@ -6,78 +6,7 @@ import { url } from 'inspector';
 
 // Enhanced project content array with all projects
 const PROJECT_CONTENT = [
-  {
-    title: 'Synto',
-    description:
-      'Synto is an AI-powered interface that transforms complex blockchain interactions into simple, natural language commands. Whether you want to send tokens, stake assets, swap coins, or even create NFTs or liquidity pools, just tell Synto what to do — no manual wallet interactions, no technical jargon. One of my biggest projects yet',
-    techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'Web3.js',
-      'shadcn-ui',
-      'TypeScript',
-      'Phantom Wallet',
-      'OpenAI API',
-      'Vercel AI SDK',
-      'Solana Agent kit',
-      'Neon',
-      'Prisma'
-    ],
-    date: '2025',
-    links: [
-      {
-        name: 'website',
-        url: 'https://synto.fun',
-      },
-      {
-        name: 'Launch Video',
-        url: 'https://www.youtube.com/watch?v=4QUE2KgKDUw',
-      },
-      {
-        name: 'X',
-        url: 'https://x.com/chainSynto',
-      },
-      {
-        name: 'Technical Video',
-        url: 'https://www.youtube.com/watch?v=1CjBLKPUwtA&feature=youtu.be',
-      },
-      {
-        name: 'Pitch Deck',
-        url: 'https://drive.google.com/file/d/1B3m44mEgv81rJHfjNfTKi147yX4raQed/view?usp=sharing',
-      },
-      {
-        name: 'Usage tutorial',
-        url: 'https://www.youtube.com/watch?v=PRu1cfvT2bA',
-      }
-    ],
-    images: [
-      {
-        src: '/synto1.png',
-        alt: 'Synto landing page',
-      },
-      {
-        src: '/synto2.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto3.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto4.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto5.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto6.png',
-        alt: 'Synto chat interface',
-      },
-    ],
-  },
-  {
+    {
     title: 'Rrate',
     description:
       "Rrate is a fun website to allow user to compare his salary with the richest people in the world. Try it now it's online!",
@@ -121,22 +50,12 @@ const PROJECT_CONTENT = [
     ],
     date: '2025',
     links: [
-      {
-        name: 'website',
-        url: 'https://dorahacks.io/buidl/22605',
-      },
+      
       {
         name: 'github',
         url: 'https://github.com/HazielCancino/DEFAI-main',
-      },
-      {
-        name: 'LinkedIn',
-        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7299337190151483392/',
-      },
-      {
-        name: 'Youtube Video',
-        url: 'https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=HazielCancino',
       }
+      
     ],
     images: [
       {
@@ -151,35 +70,10 @@ const PROJECT_CONTENT = [
         src: '/defai3.png',
         alt: 'Chatbot of Defai',
       },
-      {
-        src: '/defai4.jpeg',
-        alt: 'Winner team',
-      },
+      
     ],
   },
-  {
-    title: 'Fitgear',
-    description:
-      'Won the Gotta Go Hack IA by building Fitgear, a virtual voice seller accessible by QR code to improve the ratio between customers and sellers. Created an AI pipeline with API calls and a RAG system for natural language interactions.',
-    techStack: ['Next.js', 'TailwindCSS', 'OpenAI API', 'Langchain'],
-    date: '2024',
-    links: [
-      {
-        name: 'Linkedin',
-        url: 'https://www.linkedin.com/in/haziel-cancino-/',
-      },
-    ],
-    images: [
-      {
-        src: '/fitgear2.png',
-        alt: 'Fitgear chatbot',
-      },
-      {
-        src: '/fitgear1.png',
-        alt: 'Fitgear landing page',
-      },
-    ],
-  },
+  
   {
     title: 'Datai',
     description:
@@ -197,20 +91,14 @@ const PROJECT_CONTENT = [
         name: 'GitHub',
         url: 'https://github.com/HazielCancino/datai-main',
       },
-      {
-        name: 'Youtube Video Demo',
-        url: 'https://youtu.be/iE0RXjdbQsw',
-      }
+      
     ],
     images: [
       {
         src: '/datai1.png',
         alt: 'Datai landing page',
       },
-      {
-        src: '/datai2.png',
-        alt: 'Datai chatbot',
-      },
+      
       {
         src: '/datai3.png',
         alt: 'Datai chatbot',
@@ -224,7 +112,7 @@ const PROJECT_CONTENT = [
   {
     title: '3d Pong Game',
     description:
-      "Transcendance is the final project of my 42 cursus. It's a 3D pong game with multiplayer capabilities, user authentication, and real-time gameplay. We had to do everything from scratch, so it was pretty challenging and we learned a lot.",
+      "Transcendance It's a 3D pong game with multiplayer capabilities, user authentication, and real-time gameplay. We had to do everything from scratch, so it was pretty challenging and I learned a lot.",
     techStack: ['Django', 'Python', 'JavaScript', 'Websockets', 'PostgreSQL', 'Docker', 'Nginx', 'Web3', 'Solidity'],
     date: '2023',
     links: [
@@ -254,10 +142,7 @@ const PROJECT_CONTENT = [
         src: '/trans5.png',
         alt: 'Transcendance game',
       },
-      {
-        src: '/trans6.png',
-        alt: 'Transcendance game',
-      }
+      
 
     ],
   },
@@ -274,10 +159,7 @@ const PROJECT_CONTENT = [
       },
     ],
     images: [
-      {
-        src: '/minishell1.png',
-        alt: 'Minishell landing page',
-      }
+      
     ],
   },
   {
@@ -287,10 +169,7 @@ const PROJECT_CONTENT = [
     techStack: ['Python', 'YouTube API', 'Pexels API'],
     date: '2022',
     links: [
-      {
-        name: "YouTube Video",
-        url: "https://youtu.be/vp1v5mBG7rA "
-      },
+      
       {
         name: 'GitHub',
         url: 'https://github.com/HazielCancino/YouBot-main',
@@ -301,39 +180,10 @@ const PROJECT_CONTENT = [
         src: '/youbot1.jpg',
         alt: 'Youbot landing page',
       },
-      {
-        src: '/youbot2.png',
-        alt: 'Youbot chatbot',
-      },
+      
     ],
   },
-  {
-    title: 'Old Portfolio',
-    description:
-      'My previous traditional portfolio built with vanilla HTML, CSS and JS with GSAP animations for a smooth and interactive user experience.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'GSAP'],
-    date: '2022',
-    links: [
-      {
-        name: 'Website',
-        url: 'https://HazielCancino.github.io/oldPortfolio/',
-      },
-      {
-        name: 'GitHub',
-        url: 'https://github.com/HazielCancino/portfolio',
-      },
-    ],
-    images: [
-      {
-        src: '/oldport1.png',
-        alt: 'Old Portfolio landing page',
-      },
-      {
-        src: '/oldport2.png',
-        alt: 'Old Portfolio projects',
-      }
-    ],
-  },
+  
 ];
 
 // Define interface for project prop
@@ -439,12 +289,7 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
 
 // Main data export with updated content
 export const data = [
-  {
-    category: 'Startup Project',
-    title: 'Synto',
-    src: '/syntopreview.png',
-    content: <ProjectContent project={{ title: 'Synto' }} />,
-  },
+  
   {
     category: 'Fun Tool',
     title: 'Rrate',
@@ -452,17 +297,12 @@ export const data = [
     content: <ProjectContent project={{ title: 'Rrate' }} />,
   },
   {
-    category: 'Hackathon Winner',
+    category: 'AI Project',
     title: 'Defai',
     src: '/defaipreview.png',
     content: <ProjectContent project={{ title: 'Defai' }} />,
   },
-  {
-    category: 'Hackathon Winner',
-    title: 'Fitgear',
-    src: '/fitgearpreview.png',
-    content: <ProjectContent project={{ title: 'Fitgear' }} />,
-  },
+
   {
     category: 'Business Intelligence',
     title: 'Datai',
@@ -470,13 +310,13 @@ export const data = [
     content: <ProjectContent project={{ title: 'Datai' }} />,
   },
   {
-    category: '42 Project',
+    category: 'Game Project',
     title: '3d Pong Game',
     src: '/transcendancepreview.png',
     content: <ProjectContent project={{ title: '3d Pong Game' }} />,
   },
   {
-    category: '42 Project',
+    category: 'shell Project',
     title: 'Minishell',
     src: '/minishellpreview.png',
     content: <ProjectContent project={{ title: 'Minishell' }} />,
@@ -487,10 +327,5 @@ export const data = [
     src: '/youbotpreview.png',
     content: <ProjectContent project={{ title: 'YouBot' }} />,
   },
-  {
-    category: 'Web Development',
-    title: 'Old Portfolio',
-    src: '/oldportfoliopreview.png',
-    content: <ProjectContent project={{ title: 'Old Portfolio' }} />,
-  },
+  
 ];
