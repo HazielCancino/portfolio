@@ -41,12 +41,10 @@ const Sports = () => {
     <div className="mx-auto w-full">
       <div className="mb-8">
         <h2 className="text-foreground text-3xl font-semibold md:text-4xl">
-          My Sporting Career
+          My Hobbies
         </h2>
         <p className="mt-4 text-muted-foreground">
-          Before focusing on development, I competed at a high level in mountain biking, 
-          reaching Top 15 in the Junior World Cup and Top 10 in French Cup. Here are some highlights from my 
-          athletic journey.
+          While focusing on development, I also enjoy quuality time with my family, watching movies, going to the gym or playing basketball, reading novels or researching ways on how to code something! I love staying active and coding while listening to some tunes!
         </p>
       </div>
       <Photos photos={sportPhotos} />
