@@ -82,30 +82,19 @@ const Avatar = dynamic<AvatarProps>(
             className="relative cursor-pointer"
             onClick={() => (window.location.href = '/')}
           >
-            {isIOS() ? (
-              <img
-                src="/landing-memojis.png"
-                alt="avatar"
-                className="h-full w-full scale-[1.8] object-contain"
-              />
-            ) : (
-              <video
-                ref={videoRef}
-                className="h-full w-full scale-[1.8] object-contain"
-                muted
-                playsInline
-                loop
-              >
-                <source src="/final_memojis.webm" type="video/webm" />
-                <source src="/final_memojis_ios.mp4" type="video/mp4" />
-              </video>
-            )}
+            {/* Replaced video with backgroundless image */}
+            <img
+              src="/final_memojis.png"
+              alt="avatar"
+              className="h-full w-full scale-[1.8] object-contain"
+            />
           </div>
         </div>
       );
     }),
   { ssr: false }
 );
+
 
 const MOTION_CONFIG = {
   initial: { opacity: 0, y: 20 },
@@ -289,7 +278,7 @@ const Chat = () => {
             animationDuration={1.5}
             label="Star"
             size={'sm'}
-            repoUrl="https://github.com/Haziel/portfolio"
+            repoUrl="https://github.com/HazielCancino/portfolio"
           />
         </div>
       </div>

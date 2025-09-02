@@ -21,7 +21,7 @@ export const getInternship = tool({
 - LinkedIn: [linkedin.com/in/haziel-cancino](www.linkedin.com/in/haziel-cancino-)
 - GitHub: [github.com/hazielcancino](https://github.com/HazielCancino)
 
-Let's build cool shit together ✌️
+Let's build cool things together ✌️
     `;
   },
 });

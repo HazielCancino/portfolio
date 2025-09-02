@@ -99,7 +99,7 @@ export default function Home() {
           animationDuration={1.5}
           label="Star"
           size={'sm'}
-          repoUrl="https://github.com/Haziel/portfolio"
+          repoUrl="https://github.com/HazielCancino/portfolio"
         />
       </div>
 
