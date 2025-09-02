@@ -108,9 +108,8 @@ const InternshipCard = () => {
           What I bring
         </p>
         <p className="text-foreground text-sm">
-          Real-world AI dev experience from Lighton (MCP, secure GPTs, RAG
-          pipelines). <br /> 3x hackathon wins (ETH Oxford, Paris Blockchain
-          Week, Colosseum Breakout on Solana). <br /> I ship fast, and love
+          Real-world AI dev experience from Mexico (MCP, secure GPTs, RAG
+          pipelines). <br /> <br /> I ship fast, and love
           building useful things that actually work.
         </p>
       </div>

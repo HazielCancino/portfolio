@@ -13,7 +13,7 @@ export function Presentation() {
     // Add a newline character after the emoji
     description:
       "Hey 👋\nI'm Haziel also known as Haz. I'm a developer specializing in AI at Universidad de Oriente. I'm passionate about AI, tech, Entrepreneurship and SaaS tech.",
-    src: '/profil-raph.png',
+    src: '/profil-haziel.png',
     fallbackSrc:
       'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',
   };
