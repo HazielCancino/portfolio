@@ -7,33 +7,18 @@ const Sports = () => {
   const sportPhotos: PhotoItem[] = [
     {
       src: '/podium.jpg',
-      alt: 'On the podium after a mountain bike race',
-      caption: 'Celebrating a podium finish 3rd at the famous Roc d\'Azur',
+      alt: 'Basketball net',
+      caption: 'I have been playing basketball since young age and is my favorite sport',
     },
     {
-      src: '/levens.JPG',
-      alt: 'Racing in Levens',
-      caption: 'Competing in the mountain bike world cup in Levens with some clean conditions ahah',
+      src: '/levens.JPEG',
+      alt: 'Garfield at the tv',
+      caption: 'I enjoy too much watching movies and series with people',
     },
-    {
-      src: '/marseille.JPG',
-      alt: 'Racing in Marseille',
-      caption: 'Pushing limits at the Marseille World cup',
-    },
-    {
-      src: '/transmo.JPG',
-      alt: 'Racing in the Transmaurienne',
-      caption: 'On the start line for the Transmaurienne Race in the french Alps',
-    },
-    {
-      src: '/ploeuc.jpg',
-      alt: 'Racing in the World Cup',
-      caption: 'French championship in Ploeuc',
-    },
-    {
+        {
       src: '/gueret.jpg',
-      alt: 'Racing in the World Cup',
-      caption: 'World cup in Gueret',
+      alt: 'Lucha libre tournament',
+      caption: 'Love watching the incredible gymanstics of the sport',
     }
   ];
 

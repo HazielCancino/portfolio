@@ -11,7 +11,7 @@ import {
 import { motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import Image from 'next/image';
-import { useRouter } from 'next/navigation'; // Importation correcte pour Next.js 13+
+import { useRouter } from 'next/navigation'; // Importation correct for Next.js 13+
 import { useState } from 'react';
 
 // Added a trigger prop to accept custom triggers
@@ -41,10 +41,10 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
     </Button>
   );
 
-  // Fonction qui utilise window.location pour forcer un rechargement complet
+  // Function that uses window.location to force a full reload
   const handleContactMe = () => {
     setIsOpen(false);
-    // Forcer un rechargement complet de la page avec la requête
+    // Force the page to reload completely
     window.location.href = '/chat?query=How%20can%20I%20contact%20you%3F';
   };
 

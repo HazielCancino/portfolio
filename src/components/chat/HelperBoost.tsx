@@ -52,7 +52,7 @@ const questionConfig = [
 
 // Helper drawer data
 const specialQuestions = [
-  'Mountain Bike you said?? Show me!',
+  'What are your hobbies besides coding?',
   'Who are you?',
   'Can I see your resume?',
   'What projects are you most proud of?',
@@ -97,7 +97,7 @@ const questionsByCategory = [
     icon: GraduationCapIcon,
     questions: [
       'What are your skills?',
-      'How was your experience at École 42?',
+      'How was your experience at Universidad de Oriente?',
     ],
   },
   {
@@ -105,7 +105,7 @@ const questionsByCategory = [
     name: 'Fun',
     icon: PartyPopper,
     questions: [
-      'Mountain Bike you said?? Show me!',
+      'What are your hobbies besides coding? ',
       "What's the craziest thing you've ever done?",
       'Mac or PC?',
       'What are you certain about that 90% get wrong?',
